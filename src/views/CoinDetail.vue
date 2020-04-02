@@ -51,7 +51,7 @@
           <div class="my-10 sm:mt-0 flex flex-col justify-center text-center">
             <button
               @click="toggleConverter"
-              class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded outline-none shadow-outline"
+              class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded outline-none hover:shadow-outline"
             >
             {{ fromUsd ? `USD to ${asset.symbol}` : `${asset.symbol} to USD` }}
             </button>
